@@ -1,0 +1,87 @@
+/* common utilities */
+body{
+    margin: 0px;
+}
+
+/*-----------------------------------
+         Section-1 design 
+-------------------------------------*/
+.main-header{
+    height: 677px;
+    width: 100%;
+
+    background-color: #2D25A0;
+    color: white;
+}
+.flexible-container{
+    display: flex;
+    padding-left: 156px;
+    padding-right: 141px;
+    padding-top: 180px;
+    padding-top: 156px;
+    padding-bottom: 86px;
+    justify-content: space-between;
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+}
+.heading:hover{
+    transform: scale(1.3) translate(15%,-30%);
+    transition: transform 1s ease-in-out;
+}
+.banner:hover img{
+    transform: scale(1.3);
+    transition: transform 1s ease-in-out ;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #E02C6D;
+    background-color: #E02C6D;
+    padding-left: 24px;
+    padding-top: 8px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+}
+.banner img{
+    width: 556px;
+    height: 438px;
+}
+
+/* -----------------------------------
+            players style  
+-----------------------------------------*/
+.container-1{
+    background-color: #FFFFFF;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding-top: 70px;
+    padding-bottom: 165px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+    padding: 8px;
+}
+.player-detail{
+    padding: 8px;
+    margin-bottom: 33px;
+}
+.player{
+    width: 300px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 10px 10px 40px rgb(223, 219, 219);
+}
+
