@@ -9,7 +9,6 @@ body{
 .main-header{
     height: 677px;
     width: 100%;
-
     background-color: #2D25A0;
     color: white;
 }
@@ -181,7 +180,9 @@ input[type=submit]:hover {
     background-color: #a04572;
 }
 
-/* footer style  */
+/*----------------------------------------------------------------------
+                            footer style 
+----------------------------------------------------------------------- */
 .footer-container img{
     width: 483.87px;
     height: 110px;
@@ -203,4 +204,43 @@ input[type=submit]:hover {
 }
 .copyright{
     font-size: 25px
+}
+
+/* mobile devices */
+
+@media only screen and (max-width: 688px) {
+    .main-header{
+        width:100%;
+        height: 100%;
+    }
+    .banner{
+        padding-top: 100px;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .flexible-container, .player{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .highlights{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .high{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flag{
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer{
+        display:;
+    }
 }
